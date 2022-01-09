@@ -94,7 +94,6 @@ export default {
         this.$message.error(res.meta.msg);
       }
       this.menulist = res.data;
-      console.log(this.menulist);
     },
     // 折叠菜单
     toggleCollapse() {
