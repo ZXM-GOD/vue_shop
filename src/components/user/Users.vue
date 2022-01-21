@@ -359,7 +359,6 @@ export default {
         return this.$message.error("查询用户数据失败");
       }
       this.editFrom = res.data;
-      console.log(res);
       this.editDialogVisible = true;
     },
     // 修改用户数据
